@@ -1,0 +1,13 @@
+html, body, #root {
+  height: 100%;
+}
+
+.content {
+  min-height: calc(100vh - 200px); /* Adjust to fit the navbar and footer height */
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
